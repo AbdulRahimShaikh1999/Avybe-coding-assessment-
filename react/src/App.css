@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-b {
+  height: 100vh;
+  width: 207.5vh;
+  align-items: center;
+  background: linear-gradient(rgba(250, 0, 0, 0.5), transparent);
+  background-color: orange;
+}
+.title {
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  margin: auto;
+  padding-top: 25vh;
+}
+
+.login {
+  margin: auto;
+  padding-top: 1vh;
+  padding-left: 85vh;
+}
+
+.page {
+  background-color: #f1f1b7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0vh;
+  height: 100vh;
+  width: 207vh;
+}
+
+.container {
+  height: 450px;
+  width: 220px;
+  padding-right: 10vh;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.img-holder {
+  margin: auto;
+  width: 170px;
+  height: 170px;
+  border: 3px black solid;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+#image[type="file"] {
+  display: none;
+}
+.label {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.image-upload {
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+}
+.outer {
+  background-color: #f1f1b7;
+  padding-top: 5vh;
+}
+.name {
+  font-family: "Franklin Gothic Medium";
+  font-size: bold;
+}
+.link{
+  align-items: center;
+  padding-left: 2vh;
+}
